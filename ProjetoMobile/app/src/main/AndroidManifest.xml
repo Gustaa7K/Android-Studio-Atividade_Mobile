@@ -9,17 +9,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectoMobile">
 
-        <!-- Atividade inicial -->
-        <activity android:name=".Exercicio1Activity">
+        <!-- Main Activity - Tela Inicial -->
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <!-- Outras atividades -->
+        <!-- Exercicio1Activity -->
+        <activity android:name=".Exercicio1Activity" />
+
+        <!-- Exercicio2Activity -->
         <activity android:name=".Exercicio2Activity" />
+
+        <!-- Exercicio3Activity -->
         <activity android:name=".Exercicio3Activity" />
+
+        <!-- Exercicio4Activity - Checkbox para cada letra do nome -->
+        <activity android:name=".Exercicio4Activity" />
+
+        <!-- Exercicio5Activity - Preferências de usuário -->
+        <activity android:name=".Exercicio5Activity" />
 
     </application>
 
