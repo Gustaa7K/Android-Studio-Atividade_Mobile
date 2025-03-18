@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/editTextIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/editTextUF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UF"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cidade"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editTextTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefone"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radioButtonPequeno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pequeno"/>
+        <RadioButton
+            android:id="@+id/radioButtonMedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Médio"/>
+        <RadioButton
+            android:id="@+id/radioButtonGrande"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grande"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/checkBoxVermelho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vermelho"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Azul"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxVerde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde"/>
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:layout_gravity="center"/>
+</LinearLayout>
