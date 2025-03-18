@@ -35,11 +35,44 @@ Este repositório contém uma série de exercícios desenvolvidos para a prátic
 
 ## Estrutura do Projeto
 
-- **MainActivity.java**: Tela inicial com navegação entre as atividades dos exercícios.
-- **Exercicio1Activity.java a Exercicio5Activity.java**: Cada uma dessas atividades contém um exercício específico, conforme a descrição acima.
-- **activity_main.xml** e **activity_exercicioX.xml**: Layouts de cada uma das telas.
-- **AndroidManifest.xml**: Configuração das atividades e permissões necessárias.
+Aqui estão os arquivos essenciais do projeto e onde você pode encontrá-los:
+
+- **MainActivity.java**: 
+  - Localização: `app/src/main/java/com/example/projetomobile/MainActivity.java`
+  - Descrição: Tela inicial com navegação entre as atividades dos exercícios.
+  
+- **Exercicio1Activity.java a Exercicio5Activity.java**:
+  - Localização: `app/src/main/java/com/example/projetomobile/`
+  - Descrição: Cada uma dessas atividades contém um exercício específico, conforme a descrição dos exercícios no projeto.
+  - Arquivos: 
+    - `Exercicio1Activity.java`
+    - `Exercicio2Activity.java`
+    - `Exercicio3Activity.java`
+    - `Exercicio4Activity.java`
+    - `Exercicio5Activity.java`
+
+- **activity_main.xml**: 
+  - Localização: `app/src/main/res/layout/activity_main.xml`
+  - Descrição: Layout da tela inicial com os botões de navegação.
+  
+- **activity_exercicioX.xml**: 
+  - Localização: `app/src/main/res/layout/`
+  - Descrição: Layouts das telas dos exercícios. Cada exercício possui um arquivo XML específico para definir a interface.
+  - Arquivos:
+    - `activity_exercicio1.xml`
+    - `activity_exercicio2.xml`
+    - `activity_exercicio3.xml`
+    - `activity_exercicio4.xml`
+    - `activity_exercicio5.xml`
+
+- **AndroidManifest.xml**: 
+  - Localização: `app/src/main/AndroidManifest.xml`
+  - Descrição: Arquivo de configuração das atividades e permissões necessárias para o funcionamento do aplicativo.
 
 ## Contribuição
 
 Sinta-se à vontade para fazer contribuições para o projeto. Caso deseje, abra uma **issue** ou envie um **pull request** para melhorar o código ou adicionar novas funcionalidades.
+
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
